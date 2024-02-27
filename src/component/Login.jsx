@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ForgetPassword from './ForgetPassword'
 
 function Login() {
   return (
@@ -17,8 +18,8 @@ function Login() {
           </div>
 
           <button type="submit" className="w-full mt-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded">Sign Up</button>
-          <p className='text-center my-2'><Link className=' underline underline-offset-4 text-blue-600 '>Forget Password</Link></p>
-          <p className=' text-center mt-4  text-1xl'>Need an account? <Link className=' underline underline-offset-4 text-blue-600'>Sign Up</Link> </p>
+          <p className='text-center my-2'><Link className=' underline underline-offset-4 text-blue-600 ' to='/forget-password'>Forget Password</Link></p>
+          <p className=' text-center mt-4  text-1xl'>Need an account? <Link className=' underline underline-offset-4 text-blue-600' to='/signup'>Sign Up</Link> </p>
         </form>
 
       </div>

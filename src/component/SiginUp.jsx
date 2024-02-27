@@ -20,7 +20,7 @@ function SiginUp() {
             <input type="password" id="confirm-password" class="rounded bg-white border border-sky-300 	 block w-full text-sm p-2.5" placeholder="Confirm your password" />
           </div>
           <button type="submit" className="w-full mt-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded">Sign Up</button>
-          <p className=' text-center mt-4  text-1xl'>Already have an account? <Link className=' underline underline-offset-4 text-blue-600'>Log In</Link> </p>
+          <p className=' text-center mt-4  text-1xl'>Already have an account? <Link className='underline underline-offset-4 text-blue-600' to='/login'>Log In</Link> </p>
         </form>
 
       </div>
