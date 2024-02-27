@@ -1,5 +1,5 @@
 import { Children, createContext, useContext, useEffect, useState } from "react";
-import { createUserWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";}
+import { createUserWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
 
 import React from 'react'
 import auth from "../firebase";
